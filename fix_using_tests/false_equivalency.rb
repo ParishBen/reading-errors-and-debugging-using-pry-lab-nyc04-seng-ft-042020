@@ -13,12 +13,11 @@ def prompt_user
 end
   
 def selection(num)
-  num= get_user_input
+  num= gets.chomp
   if num == 1
     puts  "YUM YUM MUNCH MUNCH MUNCH"
   elsif num == 2
      puts "HAM HAM HAM IN MY TUMMY"
-  puts binding.pry
   end
 
 def runner
