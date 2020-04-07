@@ -18,8 +18,9 @@ def selection(num)
     puts  "YUM YUM MUNCH MUNCH MUNCH"
   elsif num == 2
      puts "HAM HAM HAM IN MY TUMMY"
+  puts binding.pry
   end
-binding.pry
+
 def runner
   prompt_user
   num = get_user_input
